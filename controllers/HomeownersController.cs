@@ -3,7 +3,8 @@ public class HomeownersController : Controller
 {
  public IActionResult Index()
  {
- return Ok("This is the index of the HomeownersController");
+ //return Ok("This is the index of the HomeownersController");
+ return View();
  }
  public IActionResult Quote()
  {
